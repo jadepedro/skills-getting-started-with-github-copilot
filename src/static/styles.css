@@ -89,9 +89,22 @@ section h3 {
 }
 
 .activity-participants ul {
-  list-style-type: disc;
-  margin-left: 20px;
+  list-style-type: none;
+  margin-left: 0;
   margin-bottom: 0;
+  padding-left: 0;
+}
+.delete-icon {
+  display: inline-block;
+  margin-left: 8px;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #a31515;
 }
 
 .activity-participants li {
